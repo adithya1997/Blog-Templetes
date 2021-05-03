@@ -3,7 +3,7 @@ Blog Templetes
 --------------
 
 
- Developer Contact 
+Developer Contact 
 ------------------------
 
 Name : Adithyan P Lal
