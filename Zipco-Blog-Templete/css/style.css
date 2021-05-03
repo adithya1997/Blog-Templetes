@@ -185,6 +185,15 @@
         padding: 50px;
     }
     
+    .brand-description-area .form-control {
+        background-color: white;
+        border: 0px;
+    }
+    
+    .brand-description-area .input-group .input-group-append {
+        background-color: white;
+    }
+    
     .brand-description-area2 {
         background-color: var(--white);
         margin-top: 20px;
