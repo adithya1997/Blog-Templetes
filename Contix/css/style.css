@@ -1,0 +1,198 @@
+                                                /*Common CSS Start*/
+                                                
+                                                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+                                                .blue-shade {
+                                                    background-color: #002257 !important;
+                                                    color: white !important;
+                                                }
+                                                
+                                                .footer-bg {
+                                                    background-color: #f6f7fa;
+                                                    height: 250px;
+                                                }
+                                                
+                                                .blue-shade-text {
+                                                    color: #002257;
+                                                }
+                                                
+                                                .font-tenx {
+                                                    font-size: 15px;
+                                                }
+                                                
+                                                .heading-font {
+                                                    font-size: 20px;
+                                                }
+                                                
+                                                .welcome-bar a.welcome-bar-item {
+                                                    color: white;
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                .welcome-bar a.welcome-bar-item:hover {
+                                                    color: white;
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                .common-spacing {
+                                                    margin-top: 20px;
+                                                }
+                                                
+                                                .common-padding {
+                                                    padding: 50px;
+                                                }
+                                                
+                                                .margin-bottom {
+                                                    margin-bottom: 20px;
+                                                }
+                                                
+                                                .right-padding {
+                                                    padding-right: 30px;
+                                                }
+                                                
+                                                .left-padding {
+                                                    padding-left: 150px;
+                                                }
+                                                
+                                                .underline {
+                                                    border-bottom: solid 1px #002257;
+                                                    bottom: 5px;
+                                                }
+                                                /*Common CSS End*/
+                                                
+                                                .navbar-toggler>.close {
+                                                    display: inline;
+                                                }
+                                                
+                                                .navbar-toggler.collapsed>.close,
+                                                .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+                                                    display: none;
+                                                }
+                                                
+                                                .navbar-mm .navbar-mm-item {
+                                                    display: inline-block;
+                                                    width: 80px;
+                                                    height: 25px;
+                                                    overflow: hidden;
+                                                }
+                                                
+                                                .navbar-mm .navbar-mm-item a {
+                                                    text-decoration: none;
+                                                    display: flex;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    transition: 0.5s;
+                                                }
+                                                
+                                                .navbar-mm .navbar-mm-item:hover a {
+                                                    transform: translateY(-100%);
+                                                }
+                                                
+                                                .hero-img {
+                                                    background-image: url("https://via.placeholder.com/1350x250");
+                                                    height: 250px;
+                                                    background-position: center;
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                }
+                                                
+                                                .section-blog-post {
+                                                    margin-top: 30px;
+                                                }
+                                                
+                                                .user-profile {
+                                                    border: solid 1px #002257;
+                                                    padding: 20px;
+                                                }
+                                                
+                                                .img-avatar-circle {
+                                                    border-radius: 50%;
+                                                }
+                                                
+                                                .top-news {
+                                                    border: solid 1px #002257;
+                                                    padding: 20px;
+                                                }
+                                                
+                                                .top-news-post {
+                                                    font-family: 'Roboto', sans-serif;
+                                                    font-weight: 300;
+                                                }
+                                                
+                                                ul.footermenu {
+                                                    list-style: none;
+                                                }
+                                                
+                                                ul li a:link .footermenu {
+                                                    color: black !important;
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                ul li a:link .footermenu:hover {
+                                                    color: black;
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                .hero-img-text {
+                                                    padding-top: 50px;
+                                                }
+                                                
+                                                .socialmedia {
+                                                    font-size: 30px;
+                                                }
+                                                
+                                                .socialmedia:hover {
+                                                    color: rgb(0, 175, 245);
+                                                }
+                                                
+                                                .footermenu a.footer-menu-item {
+                                                    color: rgb(0, 0, 0);
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                .footermenu a.footer-menu-item:hover {
+                                                    color: rgb(0, 0, 0);
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                .hovereffect {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    float: left;
+                                                    overflow: hidden;
+                                                    position: relative;
+                                                    text-align: center;
+                                                    cursor: default;
+                                                    background: #2781d6;
+                                                }
+                                                
+                                                .hovereffect .overlay {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    position: absolute;
+                                                    overflow: hidden;
+                                                    top: 0;
+                                                    left: 0;
+                                                    padding: 50px 20px;
+                                                }
+                                                
+                                                .hovereffect img {
+                                                    display: inner-block;
+                                                    position: relative;
+                                                    max-width: none;
+                                                    width: calc(100% + 20px);
+                                                    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                                                    transition: opacity 0.35s, transform 0.35s;
+                                                    -webkit-transform: translate3d(-10px, 0, 0);
+                                                    transform: translate3d(-10px, 0, 0);
+                                                    -webkit-backface-visibility: hidden;
+                                                    backface-visibility: hidden;
+                                                }
+                                                
+                                                .hovereffect:hover img {
+                                                    opacity: 0.6;
+                                                    filter: alpha(opacity=40);
+                                                    -webkit-transform: translate3d(0, 0, 0);
+                                                    transform: translate3d(0, 0, 0);
+                                                }
